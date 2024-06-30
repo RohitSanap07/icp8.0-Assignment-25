@@ -23,10 +23,45 @@
     if (number < 0) {
     console.log(number,"is negative number");
     }else if(number == 0){
-        console.log(number,"Is a initializes value");
+        console.log(number,"is a initializes value");
     }else {
         console.log(number,"is positive Number");
     }
+</script>
+
+<script>
+
+    const value1 = prompt("Enter 1st number");
+    const value2 = prompt("Enter 2nd number");
+    a = value1;
+    b = value2;
+
+
+    if(a < b){
+        console.log(b,"is largest number");
+        console.log(a, "is small number");       
+    }
+    else if (a > b){
+        console.log(a,"is largest number");
+        console.log(b, "is small number"); 
+    }
+    else if(b < a){ 
+        console.log(a ,"is largerst number");
+        console.log(b, "is small number");
+        
+    }
+    else if(b > a){
+        console.log(b,"is largest number");
+        console.log(a, "is small number"); 
+
+    }
+    else if ( b == a | a == b){
+        console.log( a, "Both numbers are same");
+    }
+    else{
+        console.log(" Value is not a true");
+    }
+
 </script>
 
 </body>
